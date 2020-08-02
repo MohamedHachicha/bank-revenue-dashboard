@@ -4,6 +4,10 @@
 
 # Session Data files
 .RData
+.Rproj
+
+# Shiny App files
+/rsconnect
 
 # User-specific files
 .Ruserdata
