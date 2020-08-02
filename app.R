@@ -8,12 +8,12 @@ library(dplyr)
 df <- read.csv('data/bank_sales.csv', stringsAsFactors = F, header = T)
 
 ui <- dashboardPage(
-    dashboardHeader(title = 'Bank Sales'),
+    dashboardHeader(title = 'Bank Revenue'),
     dashboardSidebar(
       sidebarMenu(
         menuItem('Sales Analysis', tabName = 'dashboard', icon = icon('dashboard')),
         menuItem('GitHub', icon = icon('github'),
-                 href = 'https://www.salesforce.com')
+                 href = 'https://github.com/bicachu/bank-revenue-dashboard/')
       )
     ),
     dashboardBody(
